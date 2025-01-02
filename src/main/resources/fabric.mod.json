@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "from-the-ashes",
+	"version": "${version}",
+	"name": "From The Ashes",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"FarestR06"
+	],
+	"contact": {
+		"sources": "https://github.com/FarestR06/from-the-ashes.git"
+	},
+	"license": "MIT",
+	"icon": "assets/from-the-ashes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.farestr06.fromtheashes.FromTheAshes"
+		],
+		"fabric-datagen": [
+			"com.farestr06.fromtheashes.FromTheAshesDataGenerator"
+		]
+	},
+	"mixins": [
+		"from-the-ashes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
