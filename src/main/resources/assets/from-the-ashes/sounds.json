@@ -1,0 +1,14 @@
+{
+  "block.sludge.ambient": {
+    "sounds": [
+      "liquid/lava"
+    ],
+    "subtitle": "subtitles.block.sludge.ambient"
+  },
+  "block.lava.pop": {
+    "sounds": [
+      "liquid/lavapop"
+    ],
+    "subtitle": "subtitles.block.sludge.ambient"
+  }
+}

@@ -17,8 +17,11 @@
 		"main": [
 			"com.farestr06.fromtheashes.FromTheAshes"
 		],
+		"client": [
+			"com.farestr06.fromtheashes.FromTheAshesClient"
+		],
 		"fabric-datagen": [
-			"com.farestr06.fromtheashes.FromTheAshesDataGenerator"
+			"com.farestr06.fromtheashes.datagen.FromTheAshesDataGenerator"
 		]
 	},
 	"mixins": [
