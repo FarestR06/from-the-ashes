@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "from-the-ashes:gerundite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "from-the-ashes:gerundite"
+      }
+    ]
+  }
+}

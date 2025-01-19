@@ -1,0 +1,15 @@
+// 1.21.4	-999999999-01-01T00:00:00	From The Ashes/Block Loot Tables
+4be81686fa3a4a66c9123a95ff06645c96e6c9aa data/from-the-ashes/loot_table/blocks/ashenite.json
+59ceea67b61e6d86a7ca2842ada9641cc6d66b46 data/from-the-ashes/loot_table/blocks/ashenite_slab.json
+ac00a6511546cdc1a03b99f4b4217d7ce8aae4e7 data/from-the-ashes/loot_table/blocks/ashenite_stairs.json
+d09e7729039198e22bae133eef41505ac49ba59d data/from-the-ashes/loot_table/blocks/ashenite_wall.json
+0fc1693e2d3df165e027cb90b6f3a9c49244c4d3 data/from-the-ashes/loot_table/blocks/gerundite_block.json
+1847853d23286baec09ea130daa7169dccab6066 data/from-the-ashes/loot_table/blocks/polished_ashenite.json
+3f1192207bbeb021a081cb883c735d1a1dafb579 data/from-the-ashes/loot_table/blocks/polished_ashenite_brick_slab.json
+acdf3354f3e383ebf5fcf14161a4ec6fdb05a049 data/from-the-ashes/loot_table/blocks/polished_ashenite_brick_stairs.json
+05401834915e03d9c11253bd63c88e5c3202266c data/from-the-ashes/loot_table/blocks/polished_ashenite_brick_wall.json
+00a12fec0d9599a195af9a45ae0dc049956bb4fb data/from-the-ashes/loot_table/blocks/polished_ashenite_bricks.json
+992aceef0ec833edf65484650070344464726d25 data/from-the-ashes/loot_table/blocks/polished_ashenite_slab.json
+48a3c0d81e1feebe660124bf3fbd499e86a040cb data/from-the-ashes/loot_table/blocks/polished_ashenite_stairs.json
+a8688a4aa9f53546c82ac68be0ed3d11ecfb9075 data/from-the-ashes/loot_table/blocks/polished_ashenite_wall.json
+8ca3f667177c1c351e1ae2269e1256c626087649 data/from-the-ashes/loot_table/blocks/tephra.json

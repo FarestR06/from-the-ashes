@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "from-the-ashes:gerundite_ingot",
+    "N": "from-the-ashes:gerundite_nugget"
+  },
+  "pattern": [
+    "GG",
+    " N",
+    " N"
+  ],
+  "result": {
+    "count": 1,
+    "id": "from-the-ashes:gerundite_hoe"
+  }
+}

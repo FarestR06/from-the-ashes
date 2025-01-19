@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "from-the-ashes:block/polished_ashenite_bricks"
+  }
+}

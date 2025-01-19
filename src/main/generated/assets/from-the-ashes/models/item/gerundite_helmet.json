@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "from-the-ashes:item/gerundite_helmet"
+  }
+}

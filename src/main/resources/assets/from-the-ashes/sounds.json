@@ -5,10 +5,21 @@
     ],
     "subtitle": "subtitles.block.sludge.ambient"
   },
-  "block.lava.pop": {
+  "block.sludge.pop": {
     "sounds": [
       "liquid/lavapop"
     ],
     "subtitle": "subtitles.block.sludge.ambient"
+  },
+  "item.armor.equip_gerundite": {
+    "sounds": [
+      "item/armor/equip_gold1",
+      "item/armor/equip_gold2",
+      "item/armor/equip_gold3",
+      "item/armor/equip_gold4",
+      "item/armor/equip_gold5",
+      "item/armor/equip_gold6"
+    ],
+    "subtitle": "subtitles.item.armor.equip_gerundite"
   }
 }

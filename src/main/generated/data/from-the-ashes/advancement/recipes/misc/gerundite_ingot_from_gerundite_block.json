@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gerundite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "from-the-ashes:gerundite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gerundite_ingot_from_gerundite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gerundite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gerundite_ingot_from_gerundite_block"
+    ]
+  }
+}

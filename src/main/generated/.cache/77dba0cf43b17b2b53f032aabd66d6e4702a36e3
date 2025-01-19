@@ -1,0 +1,18 @@
+// 1.21.4	-999999999-01-01T00:00:00	From The Ashes/Tags for minecraft:item
+b8285ad191d5064980602c7d7a6cbf3031881b96 data/c/tags/item/buckets.json
+3a0b6ca4e1e1f881200f5a4f654757d0b21ff0ab data/c/tags/item/ingots.json
+76fa529b3ef9ebc991247a4c51f4ce12eaa79bbc data/c/tags/item/nuggets.json
+2adeb1ee338f613fdac44e73d66de6c4020fb7ec data/c/tags/item/raw_materials.json
+593094ecd3f35420f3cc01adb053a48360f49d40 data/from-the-ashes/tags/item/gerundite_tool_materials.json
+593094ecd3f35420f3cc01adb053a48360f49d40 data/from-the-ashes/tags/item/repairs_gerundite_armor.json
+ac141a26961a60464291c4761548d1a8dc48008a data/minecraft/tags/item/axes.json
+e9ca6b69109327828d2b102527167f453bd433cf data/minecraft/tags/item/chest_armor.json
+4d78c4e427f8a43d62f4c63840166b79f09c55cf data/minecraft/tags/item/foot_armor.json
+7d2a48ba949e7b1806f23dcc33405c791d8087fa data/minecraft/tags/item/head_armor.json
+a14b0d691c3a3a586939fc9be54b233bec53b138 data/minecraft/tags/item/hoes.json
+58b4750fa9423ef433a9fd2b57d85e82a46d891c data/minecraft/tags/item/leg_armor.json
+6e1aeb9b29805aca6ef3a240712cd7f890dd32a3 data/minecraft/tags/item/pickaxes.json
+baa5cf15d6327516d344ce287390164d23cda1ba data/minecraft/tags/item/shovels.json
+9898872d2aaa560ef48aed78d6c73a8101ff21df data/minecraft/tags/item/stone_crafting_materials.json
+9898872d2aaa560ef48aed78d6c73a8101ff21df data/minecraft/tags/item/stone_tool_materials.json
+d038717804af1c142a63f6e87b6e30c9673678e6 data/minecraft/tags/item/swords.json

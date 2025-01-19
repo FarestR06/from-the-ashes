@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "gerundite_ingot",
+  "key": {
+    "#": "from-the-ashes:gerundite_nugget"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "from-the-ashes:gerundite_ingot"
+  }
+}

@@ -11,7 +11,9 @@ public class FromTheAshesDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModLangProvider::new);
 		pack.addProvider(ModLootProviders.Block::new);
+		pack.addProvider(ModTagProviders.Item::new);
 		pack.addProvider(ModTagProviders.Block::new);
 		pack.addProvider(ModTagProviders.Fluid::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "from-the-ashes:block/ashenite_slab"
+    },
+    "type=double": {
+      "model": "from-the-ashes:block/ashenite"
+    },
+    "type=top": {
+      "model": "from-the-ashes:block/ashenite_slab_top"
+    }
+  }
+}

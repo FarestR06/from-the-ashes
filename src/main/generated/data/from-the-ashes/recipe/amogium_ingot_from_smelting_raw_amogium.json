@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": "amogium_ingot",
+  "ingredient": "from-the-ashes:raw_amogium",
+  "result": {
+    "id": "from-the-ashes:amogium_ingot"
+  }
+}

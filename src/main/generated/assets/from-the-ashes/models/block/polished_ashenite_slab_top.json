@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "from-the-ashes:block/polished_ashenite",
+    "side": "from-the-ashes:block/polished_ashenite",
+    "top": "from-the-ashes:block/polished_ashenite"
+  }
+}

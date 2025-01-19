@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gerundite_ingot",
+  "ingredients": [
+    "from-the-ashes:gerundite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "from-the-ashes:gerundite_ingot"
+  }
+}

@@ -1,0 +1,7 @@
+// 1.21.4	-999999999-01-01T00:00:00	From The Ashes/Tags for minecraft:block
+1f6d828d68f89b9fd882b286ad3020d88c50f1de data/minecraft/tags/block/mineable/pickaxe.json
+08bb11a607a52f9f6e0212e7c54535921c406b93 data/minecraft/tags/block/mineable/shovel.json
+63ec576b08c74cca060e9611441e529ab5bca4fb data/minecraft/tags/block/needs_iron_tool.json
+15e1e0f5a376534137e6627f1a782a30fb2c18cb data/minecraft/tags/block/slabs.json
+1fc625978bc78a67262b8f537dbcc7cd2c7e57ba data/minecraft/tags/block/stairs.json
+f304c9608a44a886edb4bedd248250e9dd3032b8 data/minecraft/tags/block/walls.json

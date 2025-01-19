@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gerundite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#from-the-ashes:gerundite_tool_materials"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "from-the-ashes:gerundite_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gerundite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "from-the-ashes:gerundite_sword"
+    ]
+  }
+}

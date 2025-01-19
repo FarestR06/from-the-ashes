@@ -31,6 +31,17 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.SLUDGE_BUCKET))
             .displayName(Text.translatable("itemGroup.ashen_tools_and_utilities"))
             .build();
+    public static final RegistryKey<ItemGroup> COMBAT_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), makeId("combat"));
+    public static final ItemGroup COMBAT = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModItems.GERUNDITE_CHESTPLATE))
+            .displayName(Text.translatable("itemGroup.ashen_combat"))
+            .build();
+
+    public static final RegistryKey<ItemGroup> INGREDIENTS_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), makeId("ingredients"));
+    public static final ItemGroup INGREDIENTS = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModItems.GERUNDITE_INGOT))
+            .displayName(Text.translatable("itemGroup.ashen_ingredients"))
+            .build();
 
     public static void init() {
         Registry.register(Registries.ITEM_GROUP, BUILDING_BLOCKS_KEY, BUILDING_BLOCKS);
@@ -44,15 +55,55 @@ public class ModItemGroups {
         Registry.register(Registries.ITEM_GROUP, TOOLS_KEY, TOOLS);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItemGroups::toolEntries);
         ItemGroupEvents.modifyEntriesEvent(TOOLS_KEY).register(ModItemGroups::toolEntries);
+
+        Registry.register(Registries.ITEM_GROUP, COMBAT_KEY, COMBAT);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItemGroups::combatEntries);
+        ItemGroupEvents.modifyEntriesEvent(COMBAT_KEY).register(ModItemGroups::combatEntries);
+
+        Registry.register(Registries.ITEM_GROUP, INGREDIENTS_KEY, INGREDIENTS);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItemGroups::ingredientEntries);
+        ItemGroupEvents.modifyEntriesEvent(INGREDIENTS_KEY).register(ModItemGroups::ingredientEntries);
     }
 
     private static void buildingBlockEntries(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.ASHENITE);
+        entries.add(ModBlocks.ASHENITE_STAIRS);
+        entries.add(ModBlocks.ASHENITE_SLAB);
+        entries.add(ModBlocks.ASHENITE_WALL);
+        entries.add(ModBlocks.POLISHED_ASHENITE);
+        entries.add(ModBlocks.POLISHED_ASHENITE_STAIRS);
+        entries.add(ModBlocks.POLISHED_ASHENITE_SLAB);
+        entries.add(ModBlocks.POLISHED_ASHENITE_WALL);
+        entries.add(ModBlocks.POLISHED_ASHENITE_BRICKS);
+        entries.add(ModBlocks.POLISHED_ASHENITE_BRICK_STAIRS);
+        entries.add(ModBlocks.POLISHED_ASHENITE_BRICK_SLAB);
+        entries.add(ModBlocks.POLISHED_ASHENITE_BRICK_WALL);
+        entries.add(ModBlocks.GERUNDITE_BLOCK);
     }
     private static void naturalEntries(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.TEPHRA);
     }
     private static void toolEntries(FabricItemGroupEntries entries) {
+        entries.add(ModItems.GERUNDITE_SHOVEL);
+        entries.add(ModItems.GERUNDITE_PICKAXE);
+        entries.add(ModItems.GERUNDITE_AXE);
+        entries.add(ModItems.GERUNDITE_HOE);
+
         entries.add(ModItems.SLUDGE_BUCKET);
+    }
+    private static void combatEntries(FabricItemGroupEntries entries) {
+        entries.add(ModItems.GERUNDITE_SWORD);
+        entries.add(ModItems.GERUNDITE_AXE);
+        entries.add(ModItems.GERUNDITE_HELMET);
+        entries.add(ModItems.GERUNDITE_CHESTPLATE);
+        entries.add(ModItems.GERUNDITE_LEGGINGS);
+        entries.add(ModItems.GERUNDITE_BOOTS);
+    }
+    private static void ingredientEntries(FabricItemGroupEntries entries) {
+        entries.add(ModItems.RAW_AMOGIUM);
+        entries.add(ModItems.RAW_GERUNDITE);
+        entries.add(ModItems.GERUNDITE_NUGGET);
+        entries.add(ModItems.AMOGIUM_INGOT);
+        entries.add(ModItems.GERUNDITE_INGOT);
     }
 }
