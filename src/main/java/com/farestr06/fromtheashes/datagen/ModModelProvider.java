@@ -39,6 +39,10 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator generator) {
         generator.register(ModItems.SLUDGE_BUCKET, Models.GENERATED);
 
+        generator.register(ModItems.RAW_AMOGIUM, Models.GENERATED);
+        generator.register(ModItems.AMOGIUM_INGOT, Models.GENERATED);
+
+        generator.register(ModItems.RAW_GERUNDITE, Models.GENERATED);
         generator.register(ModItems.GERUNDITE_INGOT, Models.GENERATED);
         generator.register(ModItems.GERUNDITE_NUGGET, Models.GENERATED);
 

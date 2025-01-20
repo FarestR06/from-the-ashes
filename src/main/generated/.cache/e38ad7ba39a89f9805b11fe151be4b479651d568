@@ -13,6 +13,7 @@ c8792b01bb4d1ff3bbe72cd980513052cb96b553 assets/from-the-ashes/blockstates/polis
 9981986385c5fdab1c8ae9f7307c62f384bd8fd5 assets/from-the-ashes/blockstates/polished_ashenite_stairs.json
 fe59e1de3caf860427c08f87da6670f2a9815ecc assets/from-the-ashes/blockstates/polished_ashenite_wall.json
 8cd75a506e5e7777cdd3694204d74f7240be0e0e assets/from-the-ashes/blockstates/tephra.json
+ad051a17ae429f6a59390275225c53b7fbb8ebfb assets/from-the-ashes/items/amogium_ingot.json
 45822b54f75c2a7dc8bc6ad1a65b0340e3d12b7f assets/from-the-ashes/items/ashenite.json
 e2dc995785b8010b8efbccd7247cabbd4f50defd assets/from-the-ashes/items/ashenite_slab.json
 aa145c647293d7c1de68e7750c85cafa0b66755b assets/from-the-ashes/items/ashenite_stairs.json
@@ -37,6 +38,8 @@ ed8adc98132b236ae334b04cf806421f38aedfa0 assets/from-the-ashes/items/polished_as
 fd41c04b1ddd354043e21171a7c11b276f653043 assets/from-the-ashes/items/polished_ashenite_slab.json
 6d287830ee9203c0346663a37ff4bf8fbfbbd229 assets/from-the-ashes/items/polished_ashenite_stairs.json
 8ba0cb5c903e44531db7b6359225d9f0dc139e75 assets/from-the-ashes/items/polished_ashenite_wall.json
+46c2d1db3e01a120073647922e5097fa846ad379 assets/from-the-ashes/items/raw_amogium.json
+c51e2c663e657cabfdf118e3227c949787bb8b57 assets/from-the-ashes/items/raw_gerundite.json
 c724273d665154bc83eb52f9347632265da9f390 assets/from-the-ashes/items/sludge_bucket.json
 10974e4d27a6e11777b916cbf3817796da9ffd6f assets/from-the-ashes/items/tephra.json
 9c573cf92e899f669c052c65488fe0ca0650e8d2 assets/from-the-ashes/models/block/ashenite.json
@@ -71,6 +74,7 @@ b7c1e522d6d56f416f6f78999bfdce4f358887e5 assets/from-the-ashes/models/block/poli
 b651c342022e3f9b9820f4d339f64bb5cf635855 assets/from-the-ashes/models/block/polished_ashenite_wall_side.json
 9cbb4d2b20edc8b3200ed56711614633c18ba6be assets/from-the-ashes/models/block/polished_ashenite_wall_side_tall.json
 2d2c03da8b47b953c97ec4bfb8de44e62fec6a37 assets/from-the-ashes/models/block/tephra.json
+314212c5acc06154d8aa52a6ae63ee4a577c4c3f assets/from-the-ashes/models/item/amogium_ingot.json
 9dd40ecbbf69c50812d714fe1679d17fe195e448 assets/from-the-ashes/models/item/gerundite_axe.json
 37d99ec49c9a8921c403be0f92071946e63c494d assets/from-the-ashes/models/item/gerundite_boots.json
 f84d4b3ba7badc9c9842f43000f5af8fefba5664 assets/from-the-ashes/models/item/gerundite_boots_amethyst_trim.json
@@ -126,4 +130,6 @@ dede71c3162ac454bf7c7e546e279c35b89866bb assets/from-the-ashes/models/item/gerun
 733586d8e013a1510fb28dfc98a2bc189de4f03b assets/from-the-ashes/models/item/gerundite_pickaxe.json
 f7fe01cc45c296c3b6d32be92e8b16c3aa13ce1d assets/from-the-ashes/models/item/gerundite_shovel.json
 2a27cb1beafe2c07dd7a8b0b61e2d2d39c8f4706 assets/from-the-ashes/models/item/gerundite_sword.json
+c8f25bf4415c8aef5e4d40b20dcad9dc7f2dd2a0 assets/from-the-ashes/models/item/raw_amogium.json
+7b64d79002a2dce15c272e94b2398b279424155c assets/from-the-ashes/models/item/raw_gerundite.json
 fc10afbbb70622fdba1ff44b1cf4592a508777d3 assets/from-the-ashes/models/item/sludge_bucket.json

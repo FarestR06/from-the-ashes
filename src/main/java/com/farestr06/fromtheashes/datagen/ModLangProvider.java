@@ -23,9 +23,12 @@ public class ModLangProvider extends FabricLanguageProvider {
 
     private static void itemTranslations(TranslationBuilder builder) {
         gerunditeTranslations(builder);
+        builder.add(ModItems.RAW_AMOGIUM, "Raw Amogium");
+        builder.add(ModItems.AMOGIUM_INGOT, "Amogium Ingot");
     }
 
     private static void gerunditeTranslations(TranslationBuilder builder) {
+        builder.add(ModItems.RAW_GERUNDITE, "Raw Gerundite");
         builder.add(ModItems.GERUNDITE_NUGGET, "Gerundite Nugget");
         builder.add(ModItems.GERUNDITE_INGOT, "Gerundite Ingot");
         builder.add(ModBlocks.GERUNDITE_BLOCK, "Block of Gerundite");

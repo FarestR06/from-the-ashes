@@ -28,12 +28,12 @@ public class ModItemGroups {
 
     public static final RegistryKey<ItemGroup> TOOLS_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), makeId("tools_and_utilities"));
     public static final ItemGroup TOOLS = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.SLUDGE_BUCKET))
+            .icon(() -> new ItemStack(ModItems.GERUNDITE_PICKAXE))
             .displayName(Text.translatable("itemGroup.ashen_tools_and_utilities"))
             .build();
     public static final RegistryKey<ItemGroup> COMBAT_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), makeId("combat"));
     public static final ItemGroup COMBAT = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.GERUNDITE_CHESTPLATE))
+            .icon(() -> new ItemStack(ModItems.GERUNDITE_SWORD))
             .displayName(Text.translatable("itemGroup.ashen_combat"))
             .build();
 
